@@ -312,6 +312,10 @@ Based on the observed patterns, organizations may consider:
 
 ---
 
+## PROJECT FILES & REPOSITORY STRUCTURE
+
+The repository contains the working analytical files, SQL analysis scripts, Power BI dashboard, selected analytical outputs, and the academic project report.
+
 # PROJECT DELIVERABLES
 
 - **Excel Workbook** — Data preparation, profiling, descriptive statistics, and exploratory analysis
@@ -321,10 +325,22 @@ Based on the observed patterns, organizations may consider:
 - **Selected Analysis Screenshots** — Key SQL analytical outputs
 - **Academic Report** — Detailed project documentation and analysis
 
+## PROJECT DELIVERABLES
+
+| Deliverable | Description |
+|---|---|
+| **Excel Workbook** | Working analytical workbook containing data preparation, dataset profiling, descriptive statistics, PivotTable-based exploratory analysis, and relationship analysis. |
+| **SQL Query Scripts** | Three SQL scripts covering data exploration, descriptive analysis, customer segmentation, ranking, and business-oriented customer analysis. |
+| **SQLite Database** | SQLite database containing the analytical customer dataset used for SQL-based analysis. |
+| **Power BI Dashboard** | Interactive customer behavior and engagement dashboard containing KPIs, DAX measures, spending analysis, satisfaction analysis, customer inactivity analysis, and interactive filtering. |
+| **Selected Analysis Screenshots** | Key SQL analytical outputs used as visual evidence of customer segmentation, spending, inactivity, and satisfaction analysis. |
+| **Academic Project Report** | Detailed documentation of the research background, literature review, methodology, analytical process, findings, discussion, recommendations, and conclusions. |
+
 ---
 
 ## REPOSITORY STRUCTURE
 
+```
 Customer-Behavior-Engagement-Analytics/
 │
 ├── README.md
@@ -355,22 +371,48 @@ Customer-Behavior-Engagement-Analytics/
 │
 └── Documentation/
     └── MCOM_Final_Project_Report.pdf
+```
 
 ---
 
-PROJECT FILES & REPOSITORY STRUCTURE
+### Repository Structure
 
-The repository contains the working analytical files and selected visual evidence from the project.
+```text
+Customer-Behavior-Engagement-Analytics/
+│
+├── README.md
+├── Customer Behavior Analysis.xlsx
+├── Customer_Analytics.db
+├── 01_Data_Exploration.sql
+├── 02_Descriptive_Analysis.sql
+├── 03_Business_Analysis.sql
+├── Customer_Engagement_Analytics.pbix
+│
+├── SQL_01_Membership_Satisfaction.png
+├── SQL_02_Top_Spending_Customers.png
+├── SQL_03_Inactive_Customers.png
+├── SQL_04_High_Value_Customers.png
+├── PowerBI_Customer_Analytics_Dashboard.png
+│
+└── MCom_Final_Project_Report.pdf
+```
 
-File	Description
-Customer Behavior Analysis.xlsx	Excel workbook containing the working dataset, data profiling, descriptive statistics, PivotTable-based exploratory analysis, and relationship analysis
-Customer_Analytics.sql	SQL queries used for data exploration, segmentation, ranking, and business-oriented analysis
-Customer_Analytics.db	SQLite database used for the SQL analysis
-Customer Engagement Analytics.pbix	Power BI dashboard containing KPIs, DAX measures, visual analysis, and interactive filtering
-SQL_01_Membership_Satisfaction.png	Membership type vs. satisfaction analysis
-SQL_02_Top_Spending_Customers.png	Top 10 customers ranked by total spending
-SQL_03_Inactive_Customers.png	Customers with more than 30 days since their last purchase
-SQL_04_High_Value_Customers.png	Customers with total spending above 1000
+### File Descriptions
+
+| File | Description |
+|---|---|
+| `Customer Behavior Analysis.xlsx` | Excel workbook containing the working dataset, data profiling, descriptive statistics, PivotTable-based exploratory analysis, and relationship analysis. |
+| `01_Data_Exploration.sql` | SQL queries for database validation, dataset exploration, distinct-value checks, and basic customer-level analysis. |
+| `02_Descriptive_Analysis.sql` | SQL queries for descriptive statistics and distribution analysis across key customer variables. |
+| `03_Business_Analysis.sql` | Business-oriented SQL queries covering customer segmentation, membership analysis, spending, satisfaction, inactivity, high-value customers, and ranking. |
+| `Customer_Analytics.db` | SQLite database used to store and query the analytical customer dataset. |
+| `Customer_Engagement_Analytics.pbix` | Power BI dashboard containing KPIs, DAX measures, customer spending and satisfaction analysis, inactivity analysis, and interactive filtering. |
+| `SQL_01_Membership_Satisfaction.png` | SQL output showing the relationship between membership type and customer satisfaction. |
+| `SQL_02_Top_Spending_Customers.png` | SQL output identifying the top 10 customers ranked by total spending. |
+| `SQL_03_Inactive_Customers.png` | SQL output identifying customers with more than 30 days since their last purchase. |
+| `SQL_04_High_Value_Customers.png` | SQL output identifying customers with total spending above 1000. |
+| `PowerBI_Customer_Analytics_Dashboard.png` | Final Power BI dashboard screenshot showing the customer behavior and engagement analysis. |
+| `MCom_Final_Project_Report.pdf` | Complete academic project report documenting the research study, analytical methodology, findings, discussion, recommendations, and conclusions. |
 
 
 # SKILLS DEMONSTRATED
@@ -453,8 +495,4 @@ This analytics project was developed as part of an M.Com academic project, The r
 
 ---
 
-## AUTHOR
-
-**Muskan Tayal**
-
-Business Analytics | Data Analytics | Business Intelligence
+**_Designed and documented by [Muskan Tayal](https://www.linkedin.com/in/muskan-tayal-820145225)_**
