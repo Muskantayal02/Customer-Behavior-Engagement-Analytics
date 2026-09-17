@@ -47,8 +47,11 @@ This project addresses the following analytical questions:
 ## DATASET
 
 **Dataset:** E-Commerce Customer Behavior Dataset
+
 **Source:** Kaggle
+
 **Records:** 350 customers
+
 **Variables:** 11
 
 ### Key Variables
