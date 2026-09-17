@@ -2,6 +2,7 @@
 An end-to-end customer analytics project using Microsoft Excel, SQL, and Power BI to analyze customer behavior, engagement patterns, spending, satisfaction, and purchasing activity.
 
 ---
+
 ## PROJECT OVERVIEW
 
 This project presents an end-to-end customer analytics workflow, combining exploratory data analysis, SQL-based business analysis, and interactive Power BI visualization.
@@ -161,28 +162,47 @@ The dataset was imported into **SQLite** and queried using **DB Browser for SQLi
 
 #### Customer Segmentation Analysis
 
-- Membership type and satisfaction
-- Membership type and average spending
-- City-level spending analysis
-- Discount and satisfaction analysis
+- **Membership Type vs. Satisfaction Level**
+
+Customer satisfaction was examined across membership categories to identify differences in observed satisfaction patterns.
+
+<img width="1920" height="1080" alt="SQL_Membership_Satisfaction" src="https://github.com/user-attachments/assets/1120884c-df46-44a2-bc91-3a54b2ff537f" />
+
+- **Membership Type vs. Average Spending**
+
+Average spending was compared across membership categories to identify differences in observed customer value.
+
+- **City-Level Spending Analysis**
+
+Average customer spending was compared across cities to identify geographic variation in the dataset.
+
+- **Discount vs. Satisfaction**
+
+Satisfaction patterns were compared between customers who received discounts and those who did not.
 
 #### Business-Oriented Queries
 
 **Top 10 Customers by Total Spend**
 
 Identified the highest-spending customers using descending ordering and `LIMIT`.
+<img width="1920" height="1080" alt="SQL_Top_10_Customers" src="https://github.com/user-attachments/assets/ddeafd91-9788-4251-b328-f456991476cb" />
+
 
 **High-Value Customer Analysis**
 
 Identified customers with total spending above **1000** as a high-value customer segment.
+<img width="1920" height="1080" alt="SQL_High_Value_Customers" src="https://github.com/user-attachments/assets/8e9d231e-9b0b-42bb-8877-d9e68012a07c" />
+
 
 **Inactive Customer Analysis**
 
 Identified customers with more than **30 days since their last purchase** as a potentially inactive segment.
+<img width="1920" height="1080" alt="SQL_Inactive_Customers" src="https://github.com/user-attachments/assets/5c56293f-b883-4562-a884-579682c40380" />
+
 
 ### SQL Techniques Demonstrated
 
-- `SELECT`, `WHERE`,`GROUP BY`, `ORDER BY`,`COUNT()`, `COUNT(DISTINCT)`, `SUM()`,`AVG()`,`MIN()`,`MAX()`,`CASE`,`INNER JOIN`,`LEFT JOIN`,Date and filtering functions,`LIMIT`
+- `SELECT`, `WHERE`,`GROUP BY`, `ORDER BY`,`COUNT()`, `COUNT(DISTINCT)`, `SUM()`,`AVG()`,`MIN()`,`MAX()`,`CASE`,`INNER JOIN`,`LEFT JOIN`, Date and filtering functions,`LIMIT`
 
 SQL results were compared with the Excel analysis to provide **cross-tool validation** and support consistency of the analytical results.
 
@@ -294,6 +314,52 @@ Based on the observed patterns, organizations may consider:
 
 ---
 
+## REPOSITORY STRUCTURE
+
+Customer-Behavior-Engagement-Analytics/
+│
+├── README.md
+│
+├── Customer Behavior Analysis.xlsx
+├── Customer_Analytics.sql
+├── Customer_Analytics.db
+├── Customer Engagement Analytics.pbix
+│
+├── SQL_01_Membership_Satisfaction.png
+├── SQL_02_Top_Spending_Customers.png
+├── SQL_03_Inactive_Customers.png
+└── SQL_04_High_Value_Customers.png
+
+---
+
+PROJECT FILES & REPOSITORY STRUCTURE
+
+The repository contains the working analytical files and selected visual evidence from the project.
+
+File	Description
+Customer Behavior Analysis.xlsx	Excel workbook containing the working dataset, data profiling, descriptive statistics, PivotTable-based exploratory analysis, and relationship analysis
+Customer_Analytics.sql	SQL queries used for data exploration, segmentation, ranking, and business-oriented analysis
+Customer_Analytics.db	SQLite database used for the SQL analysis
+Customer Engagement Analytics.pbix	Power BI dashboard containing KPIs, DAX measures, visual analysis, and interactive filtering
+SQL_01_Membership_Satisfaction.png	Membership type vs. satisfaction analysis
+SQL_02_Top_Spending_Customers.png	Top 10 customers ranked by total spending
+SQL_03_Inactive_Customers.png	Customers with more than 30 days since their last purchase
+SQL_04_High_Value_Customers.png	Customers with total spending above 1000
+Repository Structure
+Customer-Behavior-Engagement-Analytics/
+│
+├── README.md
+│
+├── Customer Behavior Analysis.xlsx
+├── Customer_Analytics.sql
+├── Customer_Analytics.db
+├── Customer Engagement Analytics.pbix
+│
+├── SQL_01_Membership_Satisfaction.png
+├── SQL_02_Top_Spending_Customers.png
+├── SQL_03_Inactive_Customers.png
+└── SQL_04_High_Value_Customers.png
+
 # SKILLS DEMONSTRATED
 
 ### Data Analytics
@@ -364,8 +430,7 @@ Potential extensions of the project could include:
 
 ## DATASET ATTRIBUTION
 
-**E-Commerce Customer Behavior Dataset — Kaggle**: Link
-https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset?resource=download
+**E-Commerce Customer Behavior Dataset — Kaggle**: https://www.kaggle.com/datasets/uom190346a/e-commerce-customer-behavior-dataset?resource=download
 
 ---
 
