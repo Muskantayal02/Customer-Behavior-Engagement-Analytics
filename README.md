@@ -329,15 +329,32 @@ Customer-Behavior-Engagement-Analytics/
 │
 ├── README.md
 │
-├── Customer Behavior Analysis.xlsx
-├── Customer_Analytics.sql
-├── Customer_Analytics.db
-├── Customer Engagement Analytics.pbix
+├── Excel/
+│   └── Customer Behavior Analysis.xlsx
 │
-├── SQL_01_Membership_Satisfaction.png
-├── SQL_02_Top_Spending_Customers.png
-├── SQL_03_Inactive_Customers.png
-└── SQL_04_High_Value_Customers.png
+├── SQL/
+│   ├── Database/
+│   │   └── Customer Analytics.db
+│   │
+│   ├── Queries/
+│   │   ├── 01_Data_Exploration.sql
+│   │   ├── 02_Descriptive_Analysis.sql
+│   │   └── 03_Business_Analysis.sql
+│   │
+│   └── Screenshots/
+│       ├── SQL_Membership_Satisfaction.png
+│       ├── SQL_Top_10_Customers.png
+│       ├── SQL_Inactive_Customers.png
+│       └── SQL_High_Value_Customers.png
+│
+├── Power BI/
+│   └── Customer_Engagement_Analytics.pbix
+│
+├── Screenshots/
+│   └── PowerBI_Customer_Analytics_Dashboard.png
+│
+└── Documentation/
+    └── MCOM_Final_Project_Report.pdf
 
 ---
 
