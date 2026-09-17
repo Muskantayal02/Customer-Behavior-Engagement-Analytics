@@ -189,7 +189,7 @@ Satisfaction patterns were compared between customers who received discounts and
 Identified the highest-spending customers using descending ordering and `LIMIT`.
 
 <img width="1920" height="1080" alt="SQL_Top_10_Customers" src="https://github.com/user-attachments/assets/ddeafd91-9788-4251-b328-f456991476cb" />
-
+&nbsp;
 
 
 - _**High-Value Customer Analysis**_
@@ -197,7 +197,7 @@ Identified the highest-spending customers using descending ordering and `LIMIT`.
 Identified customers with total spending above **1000** as a high-value customer segment.
 
 <img width="1920" height="1080" alt="SQL_High_Value_Customers" src="https://github.com/user-attachments/assets/8e9d231e-9b0b-42bb-8877-d9e68012a07c" />
-
+&nbsp;
 
 - _**Inactive Customer Analysis**_
 
