@@ -168,7 +168,7 @@ The dataset was imported into **SQLite** and queried using **DB Browser for SQLi
 Customer satisfaction was examined across membership categories to identify differences in observed satisfaction patterns.
 
 <img width="1920" height="1080" alt="SQL_Membership_Satisfaction" src="https://github.com/user-attachments/assets/1120884c-df46-44a2-bc91-3a54b2ff537f" />
-
+&nbsp;
 
 - _**Membership Type vs. Average Spending**_
 
