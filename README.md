@@ -169,6 +169,7 @@ Customer satisfaction was examined across membership categories to identify diff
 
 <img width="1920" height="1080" alt="SQL_Membership_Satisfaction" src="https://github.com/user-attachments/assets/1120884c-df46-44a2-bc91-3a54b2ff537f" />
 
+
 - **Membership Type vs. Average Spending**
 
 Average spending was compared across membership categories to identify differences in observed customer value.
@@ -183,21 +184,25 @@ Satisfaction patterns were compared between customers who received discounts and
 
 #### BUSINESS-ORIENTED ANALYSIS
 
-**Top 10 Customers by Total Spend**
+- **Top 10 Customers by Total Spend**
 
 Identified the highest-spending customers using descending ordering and `LIMIT`.
+
 <img width="1920" height="1080" alt="SQL_Top_10_Customers" src="https://github.com/user-attachments/assets/ddeafd91-9788-4251-b328-f456991476cb" />
 
 
-**High-Value Customer Analysis**
+
+- **High-Value Customer Analysis**
 
 Identified customers with total spending above **1000** as a high-value customer segment.
+
 <img width="1920" height="1080" alt="SQL_High_Value_Customers" src="https://github.com/user-attachments/assets/8e9d231e-9b0b-42bb-8877-d9e68012a07c" />
 
 
-**Inactive Customer Analysis**
+- **Inactive Customer Analysis**
 
 Identified customers with more than **30 days since their last purchase** as a potentially inactive segment.
+
 <img width="1920" height="1080" alt="SQL_Inactive_Customers" src="https://github.com/user-attachments/assets/5c56293f-b883-4562-a884-579682c40380" />
 
 
@@ -349,20 +354,7 @@ SQL_01_Membership_Satisfaction.png	Membership type vs. satisfaction analysis
 SQL_02_Top_Spending_Customers.png	Top 10 customers ranked by total spending
 SQL_03_Inactive_Customers.png	Customers with more than 30 days since their last purchase
 SQL_04_High_Value_Customers.png	Customers with total spending above 1000
-Repository Structure
-Customer-Behavior-Engagement-Analytics/
-│
-├── README.md
-│
-├── Customer Behavior Analysis.xlsx
-├── Customer_Analytics.sql
-├── Customer_Analytics.db
-├── Customer Engagement Analytics.pbix
-│
-├── SQL_01_Membership_Satisfaction.png
-├── SQL_02_Top_Spending_Customers.png
-├── SQL_03_Inactive_Customers.png
-└── SQL_04_High_Value_Customers.png
+
 
 # SKILLS DEMONSTRATED
 
