@@ -11,8 +11,6 @@ The analysis examines customer spending, purchasing behavior, satisfaction, memb
 
 The project demonstrates how raw customer-level data can be transformed into structured analysis and decision-oriented insights using multiple analytical tools.
 
-The project was developed as part of an M.Com academic project, with the analytical work designed to demonstrate practical Business Analytics and Data Analytics capabilities.
-
 ---
 ## BUSINESS / ANALYTICAL PROBLEM
 
@@ -183,7 +181,7 @@ Average customer spending was compared across cities to identify geographic vari
 
 Satisfaction patterns were compared between customers who received discounts and those who did not.
 
-#### Business-Oriented Queries
+#### BUSINESS-ORIENTED ANALYSIS
 
 **Top 10 Customers by Total Spend**
 
@@ -246,6 +244,9 @@ The dashboard includes measures developed for customer-level analytical reportin
 - Average Days Since Purchase
 
 ---
+
+<img width="1920" height="1080" alt="Screenshot (2220)" src="https://github.com/user-attachments/assets/e91ca9c6-f54e-4327-87e0-7c366a0550ce" />
+
 
 # KEY INSIGHTS
 
@@ -423,7 +424,7 @@ Potential extensions of the project could include:
 - Larger and more diverse customer datasets
 - Time-series customer behavior analysis
 - Customer Lifetime Value modelling
-- RFM-based segmentation
+- RFM-based customer segmentation using transaction-level purchase history
 - Predictive churn analysis
 - Marketing campaign and channel-level data
 - Advanced statistical and machine learning techniques
@@ -439,7 +440,7 @@ Potential extensions of the project could include:
 
 ## ACADEMIC CONTEXT
 
-This analytics project was developed as part of an **M.Com academic project**. The repository emphasizes the practical analytics workflow, tools, analytical reasoning, and business interpretation demonstrated through the project.
+This analytics project was developed as part of an M.Com academic project, The repository emphasizes the practical analytics workflow, tools, analytical reasoning, and business interpretation demonstrated through the project.
 
 ---
 
