@@ -163,28 +163,28 @@ The dataset was imported into **SQLite** and queried using **DB Browser for SQLi
 
 #### Customer Segmentation Analysis
 
-- **Membership Type vs. Satisfaction Level**
+- _**Membership Type vs. Satisfaction Level**_
 
 Customer satisfaction was examined across membership categories to identify differences in observed satisfaction patterns.
 
 <img width="1920" height="1080" alt="SQL_Membership_Satisfaction" src="https://github.com/user-attachments/assets/1120884c-df46-44a2-bc91-3a54b2ff537f" />
 
 
-- **Membership Type vs. Average Spending**
+- _**Membership Type vs. Average Spending**_
 
 Average spending was compared across membership categories to identify differences in observed customer value.
 
-- **City-Level Spending Analysis**
+- _**City-Level Spending Analysis**_
 
 Average customer spending was compared across cities to identify geographic variation in the dataset.
 
-- **Discount vs. Satisfaction**
+- _**Discount vs. Satisfaction**_
 
 Satisfaction patterns were compared between customers who received discounts and those who did not.
 
 #### BUSINESS-ORIENTED ANALYSIS
 
-- **Top 10 Customers by Total Spend**
+- _**Top 10 Customers by Total Spend**_
 
 Identified the highest-spending customers using descending ordering and `LIMIT`.
 
@@ -192,14 +192,14 @@ Identified the highest-spending customers using descending ordering and `LIMIT`.
 
 
 
-- **High-Value Customer Analysis**
+- _**High-Value Customer Analysis**_
 
 Identified customers with total spending above **1000** as a high-value customer segment.
 
 <img width="1920" height="1080" alt="SQL_High_Value_Customers" src="https://github.com/user-attachments/assets/8e9d231e-9b0b-42bb-8877-d9e68012a07c" />
 
 
-- **Inactive Customer Analysis**
+- _**Inactive Customer Analysis**_
 
 Identified customers with more than **30 days since their last purchase** as a potentially inactive segment.
 
@@ -325,8 +325,6 @@ The repository contains the working analytical files, SQL analysis scripts, Powe
 - **Selected Analysis Screenshots** — Key SQL analytical outputs
 - **Academic Report** — Detailed project documentation and analysis
 
-## PROJECT DELIVERABLES
-
 | Deliverable | Description |
 |---|---|
 | **Excel Workbook** | Working analytical workbook containing data preparation, dataset profiling, descriptive statistics, PivotTable-based exploratory analysis, and relationship analysis. |
@@ -335,43 +333,6 @@ The repository contains the working analytical files, SQL analysis scripts, Powe
 | **Power BI Dashboard** | Interactive customer behavior and engagement dashboard containing KPIs, DAX measures, spending analysis, satisfaction analysis, customer inactivity analysis, and interactive filtering. |
 | **Selected Analysis Screenshots** | Key SQL analytical outputs used as visual evidence of customer segmentation, spending, inactivity, and satisfaction analysis. |
 | **Academic Project Report** | Detailed documentation of the research background, literature review, methodology, analytical process, findings, discussion, recommendations, and conclusions. |
-
----
-
-## REPOSITORY STRUCTURE
-
-```
-Customer-Behavior-Engagement-Analytics/
-│
-├── README.md
-│
-├── Excel/
-│   └── Customer Behavior Analysis.xlsx
-│
-├── SQL/
-│   ├── Database/
-│   │   └── Customer Analytics.db
-│   │
-│   ├── Queries/
-│   │   ├── 01_Data_Exploration.sql
-│   │   ├── 02_Descriptive_Analysis.sql
-│   │   └── 03_Business_Analysis.sql
-│   │
-│   └── Screenshots/
-│       ├── SQL_Membership_Satisfaction.png
-│       ├── SQL_Top_10_Customers.png
-│       ├── SQL_Inactive_Customers.png
-│       └── SQL_High_Value_Customers.png
-│
-├── Power BI/
-│   └── Customer_Engagement_Analytics.pbix
-│
-├── Screenshots/
-│   └── PowerBI_Customer_Analytics_Dashboard.png
-│
-└── Documentation/
-    └── MCOM_Final_Project_Report.pdf
-```
 
 ---
 
